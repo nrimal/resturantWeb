@@ -1,11 +1,7 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
 import Map from './GoogleMap'
 import '../css/main.css'
 class Location extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return (
             <div className="container-fluid">

@@ -11,9 +11,6 @@ import '../css/menupage.css'
 const imageSlide = [menuPage1, menuPage2, menuPage3, menuPage4, menuPage5];
 
 class Menu extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return (
             <div className="image-container">

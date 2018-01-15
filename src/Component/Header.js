@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Image from '../images/topheaderphoto.jpeg'
 import '../css/header.css'
+import Sitetop from './Sitetop'
 // The Header creates links that can be used to navigate
 // between routes.
 const Header = () => (
     <header>
-        <img src={Image} className="img headerpic" alt="Cinque Terre"></img>
+       <Sitetop/>
         <div className="row">
             <div className="col">
                 <nav className="navbar navbar-inverse">

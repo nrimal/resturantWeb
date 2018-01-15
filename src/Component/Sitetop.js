@@ -1,10 +1,10 @@
 import React from 'react'
+import Image from '../images/topheaderphoto.jpeg'
+import '../css/header.css'
 // The Header creates links that can be used to navigate
 // between routes.
 const Sitetop = () => (
-        <div className="">
-        <img src="../../images/topheaderphoto.jpeg" className="img-rounded" alt="Cinque Terre"></img>
-        </div>
+        <img src={Image} className="img headerpic" alt="Cinque Terre"></img>
 )
 
 export default Sitetop
