@@ -1,0 +1,11 @@
+#menu-images{
+    height: 40%;
+    width: 50%;
+    border-style: solid;
+    border-width: 5px;
+}
+.image-container{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+}

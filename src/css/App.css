@@ -1,0 +1,20 @@
+html, body, #root, #root {
+  height: 100%;
+  color:rgb(157, 24, 24);
+}
+.about-container{
+  justify-content: center;
+  display: flex;
+}
+.info-cont{
+  display: flex;
+  justify-content: center;
+}
+#left-arrow{
+  background-image: url('../images/left.jpg');
+  float: left;
+}
+#right-arrow{
+  background-image: url('../images/right.jpg');
+  float: right;
+}

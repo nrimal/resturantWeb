@@ -1,0 +1,27 @@
+div.location-information + div{
+    float: right;
+    margin-right: 50px;
+    display: inline;
+    margin-top: 3%;
+}
+div.location-information label{
+    font-size: 30px;
+}
+div.location-information p{
+    font-size: 20px;
+}
+div.location-information{
+    float: left;
+    margin-left: 95px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 70px;
+    border: solid;
+}
+div.location-information p{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    align-content: center;
+}
