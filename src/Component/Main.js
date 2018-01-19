@@ -12,7 +12,7 @@ class Main extends React.Component {
             <main className="container-fluid">
                 <Switch>
                     <Route exact path='/' component={Home} />
-                    <Route path='/about' component={About} />
+                    {/* <Route path='/about' component={About} /> */}
                     <Route path='/showMenu' component={MenuPage} />
                     <Route path='/location' component={Location} />
                 </Switch>
@@ -20,7 +20,5 @@ class Main extends React.Component {
         );
     }
 }
-
-
 
 export default Main

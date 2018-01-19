@@ -10,7 +10,7 @@ import '../css/menupage.css'
 
 const imageSlide = [menuPage1, menuPage2, menuPage3, menuPage4, menuPage5];
 
-class Menu extends React.Component {
+class MenuSlider extends React.Component {
     render() {
         return (
             <div className="image-container">
@@ -36,4 +36,4 @@ class Menu extends React.Component {
     }
 }
 
-export default Menu
+export default MenuSlider
