@@ -1,6 +1,8 @@
 import React from 'react'
 import Map from './GoogleMap'
 import '../css/main.css'
+import HourBox from './StoreHour'
+import '../css/location.css'
 class Location extends React.Component {
     render() {
         return (
@@ -18,6 +20,9 @@ class Location extends React.Component {
                         <Map />
                     </div>
                 {/* </div> */}
+                    <div id="storehour-container-location">
+                        <HourBox/>
+                    </div>
             </div>
         );
     }
