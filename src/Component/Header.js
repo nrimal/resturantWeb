@@ -13,7 +13,7 @@ const Header = () => (
                     <div className="container-fluid">
                         <ul className="nav navbar-nav">
                             <li><Link to="/">Home</Link> </li>
-                            {/* <li> <Link to="/about"> About us </Link> </li> */}
+                            <li> <Link to="/about"> About us </Link> </li>
                             <li> <Link to="/showMenu"> Menu </Link> </li>
                             <li> <Link to="/location"> Location/Contact Info </Link> </li>
                         </ul>

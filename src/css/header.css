@@ -7,3 +7,17 @@
 .navbar-iverse{
     margin-bottom: 10px;
 }
+.navbar-inverse .container-fluid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar-nav li{
+    font-size: 1.35em;
+}
+
+ul.nav.navbar-nav{
+    border-left: 10px solid rgb(157, 24, 24);
+    border-right: 10px solid rgb(157, 24, 24);
+}
