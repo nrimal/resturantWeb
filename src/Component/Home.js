@@ -1,6 +1,10 @@
 import React from 'react'
 import '../css/home.css'
 import HourBox from './StoreHour'
+
+var facebook = {
+  link: "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHimalayanGrille1%2F%3Frf%3D951843608217514&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+}
 const Home = () => (
   <div className="vertical-line">
     <div className="col v1"></div>
@@ -17,7 +21,7 @@ const Home = () => (
 
     <div className="col social-box">
       <h3>Check us out on Facebook!</h3>    
-      <iframe title="facebook-page" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHimalayanGrille1%2F%3Frf%3D951843608217514&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" className="facebook-plugin" ></iframe>
+      <iframe title="facebook-page" src={facebook.link} className="facebook-plugin" ></iframe>
     </div>
     <div className="col v2"></div>
 
