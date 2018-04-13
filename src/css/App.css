@@ -1,27 +1,35 @@
 html, body, #root, #root {
   height: 100%;
-  color:rgb(157, 24, 24);
+  color:rgb(245, 240, 245);
+  background-color: rgb(31, 11, 11);
+  background-color: rgb(56, 13, 13);
+  
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div.root{
+  height: 100%; 
+  /* Center and scale the image nicely */
+
 }
 .about-container{
   justify-content: center;
   display: flex;
 }
 .flex-container{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 50%;
   float: left;
 }
-.flex-container2{
+.flex-container, .flex-container2{
   display: flex;
+  margin-top: 10px;
   justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   width: 50%;
-  float: right;
 }
-
+.flex-container2 div{
+  display: flex;
+  justify-content: center;
+}
 .info-cont {
   text-align: center;
 }
@@ -40,8 +48,6 @@ html, body, #root, #root {
   float: right;
 }
 .about-us-image{
-  float: right;
   width: 50%;
   height: 50%;
-  margin: 0%;
 }

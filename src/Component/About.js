@@ -47,9 +47,15 @@ const About = () => (
     </div>
     
     <div className="col flex-container2">
+    <div>
     <img src={NepalImage} className="img about-us-image" alt="not found "></img>
+    </div>
+    <div>
     <img src={IndiaImage} className="img about-us-image" alt="not found"></img>
+      </div>
+      <div>
     <img src={TibetImage} className="img about-us-image" alt="not found"></img>
+        </div>
     </div>
 
 
