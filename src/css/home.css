@@ -47,10 +47,11 @@
 .social-box{
     /* margin-top: 100px;
     margin-left: 100px;
-    float: left;
+    
     width: 30%;
     right: 0; */
-    margin-right: 100px;
+    margin-left: 100px;
+    float: left;
     /* float: right;
     width: 40%;
     right: 0; */
